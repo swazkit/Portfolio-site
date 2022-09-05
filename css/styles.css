@@ -517,6 +517,7 @@ nav {
       }
     
     .about-text {
-        width: 400px;
+        width: 360px;
+        text-align: center;
     }
 }
