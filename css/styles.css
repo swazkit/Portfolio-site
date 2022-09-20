@@ -4,9 +4,10 @@
 }
 
 .hero {
-    height: 100vh;
+    height: calc(100vh - 50px);
     width: 100%;
     background-color: #000;
+    overflow: hidden;
 }
 
 /* navbar */ 
@@ -24,9 +25,8 @@ nav ul li a {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 8%;
     padding-right: 8%;
     text-decoration: none;
@@ -34,6 +34,7 @@ nav {
 
 .navbar-links {
     height: 100%;
+    padding-top: 15px;
 }
 
 .navbar-links ul {
@@ -229,7 +230,7 @@ nav li :hover {
 {
     0%
     {
-        transform: translateY(84vh)scale(0);
+        transform: translateY(calc(100vh - 50px))scale(0);
     }
     100%{
         transform: translateY(0)scale(1)
@@ -475,6 +476,10 @@ nav {
     background-color: #000;
 }
 
+.top-bar {
+    padding-top: 15px;
+}
+
 @media only screen and (max-width: 768px) {
 
     .btn-rgb {
@@ -489,15 +494,10 @@ nav {
     }
    
     .Navbar__Link-toggle {
-        align-self: flex-end;
-        display: initial;
+        display: flex;
         cursor: pointer;
     }
 
-    .Navbar,
-    .navbar-links {
-        flex-direction: column;
-    }
 
     .links  {
         display: none;
@@ -512,12 +512,37 @@ nav {
         align-self: flex-start;
     }
 
-    .Navbar__ToggleShow {
-        display: flex;
-      }
-    
     .about-text {
         width: 360px;
         text-align: center;
+    }
+
+    nav {
+        align-items: baseline;
+    }
+
+    .top-bar {
+        justify-content: space-between;
+    }
+
+    .mbub {
+        display: none;
+    }
+
+    .hero {
+        height: calc(100vh - 2.5rem)
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .text-port h3 {
+        font-size: 1.75rem;
+        margin-top: 2rem;
+    }
+
+    .about-text h1 {
+        font-size: 4rem;
     }
 }
