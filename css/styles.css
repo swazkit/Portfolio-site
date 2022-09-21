@@ -641,4 +641,9 @@ nav {
     .card {
         width: 275px;
     }
+
+    .bowl {
+        width: 217px;
+        height: 217px;
+    }
 }
