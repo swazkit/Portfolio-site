@@ -635,6 +635,14 @@ nav {
     }
 
     .Skillsets {
-        gap: 1.5rem;
+        gap: 2px;
+    }
+
+    .card {
+        width: 275px;
+    }
+
+    .bubbles {
+        margin-right: 20px;
     }
 }
