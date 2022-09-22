@@ -561,6 +561,11 @@ nav {
 
 .Skillsets i {
     font-size: 5.4575rem;
+    transition: 1s;
+}
+
+.Skillsets i:hover {
+    color: #f9004d;
 }
 
 
@@ -646,4 +651,5 @@ nav {
         width: 217px;
         height: 217px;
     }
+    
 }
