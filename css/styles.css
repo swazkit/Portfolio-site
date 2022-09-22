@@ -582,6 +582,76 @@ nav {
     color: #cc6699;
 }
 
+.contact {
+    min-height: 12.5rem;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h3 {
+    margin: 3rem;
+    font-size: 1.9rem;
+}
+
+.contact .btn-rgb {
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding-top: 1.2rem;
+    min-height: 25rem;
+    color: #fff;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    font-size: 1.9rem;
+}
+
+footer p {
+    margin: 1.2rem;
+    color: #fff;
+    width: calc(4vw + 30rem);
+    line-height: 1.6875rem;
+    text-align: center;
+}
+
+.social {
+    display: flex; 
+    gap: 0.9rem;   
+}
+
+.social a {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    border-radius: 50%;
+}
+
+.social a :hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.social i {
+    font-size: 1.6rem;
+}
+
+.copyright {
+    margin-top: 4rem;
+    color: #f9004d;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -665,6 +735,18 @@ nav {
     .bowl {
         width: 217px;
         height: 217px;
+    }
+
+    .contact h3 {
+        text-align: center;
+    }
+
+    .contact .btn-rgb {
+        display: flex;
+    }
+
+    footer p {
+        width: 20rem;
     }
     
 }
