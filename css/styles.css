@@ -564,8 +564,22 @@ nav {
     transition: 1s;
 }
 
-.Skillsets i:hover {
-    color: #f9004d;
+.Skillsets .fa-css3-alt:hover {
+    color: #264de4;
+}
+
+.Skillsets .fa-js:hover {
+    color: #f0db4f;
+}
+
+
+.Skillsets .fa-bootstrap:hover {
+    color: #563d7c;
+}
+
+
+.Skillsets .fa-sass:hover {
+    color: #cc6699;
 }
 
 
@@ -631,10 +645,11 @@ nav {
         margin-top: 2rem;
     }
 
-    .about-text h1 {
+    .about-text h1, .services h2 {
         font-size: 4rem;
     }
 
+   
     .box {
         flex-direction: column;
     }
