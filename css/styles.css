@@ -540,11 +540,11 @@ nav {
 }
 
 .skillsets {
-    height: 20rem;
+    height: 22rem;
     background-color: #000;
     color: #fff;
     margin-inline: auto;
-    padding-top: 3rem;
+    padding-block: 3rem;
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
@@ -559,7 +559,15 @@ nav {
     gap: 10rem;
 }
 
-.Skillsets i {
+.Skillsets2 {
+    color: #393939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.Skillsets i, .Skillsets2 i {
     font-size: 5.4575rem;
     transition: 1s;
 }
@@ -580,6 +588,10 @@ nav {
 
 .Skillsets .fa-sass:hover {
     color: #cc6699;
+}
+
+.Skillsets2 .fa-react:hover {
+    color: #61dbfb;
 }
 
 .contact {
@@ -725,7 +737,7 @@ footer p {
     }
 
     .Skillsets {
-        gap: 2px;
+        gap: 10px;
     }
 
     .card {
@@ -747,6 +759,11 @@ footer p {
 
     footer p {
         width: 20rem;
+    }
+
+    .Skillsets i, .Skillsets2 i {
+        font-size: 5rem;
+        transition: 1s;
     }
     
 }
